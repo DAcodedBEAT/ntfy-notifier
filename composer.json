@@ -1,0 +1,29 @@
+{
+  "name": "dacodedbeat/ntfy-notifier",
+  "type": "symfony-notifier-bridge",
+  "description": "Symfony Ntfy Notifier Bridge",
+  "keywords": [
+    "ntfy",
+    "notifier"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arun Philip",
+      "email": "dacodedbeat@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "ext-json": "*",
+    "symfony/http-client": "^4.3|^5.0|^6.0",
+    "symfony/notifier": "^5.3|^6.0",
+    "symfony/service-contracts": "^1.10|^2|^3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ntfy\\Symfony\\Component\\Notifier\\Bridge\\Ntfy\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
